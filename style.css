@@ -1,0 +1,116 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: #070f2b;
+}
+
+.container {
+  background-color: #EFF396;
+  border-radius: 1rem;
+  border: 10px inset #535c91;
+  padding: 3rem;
+  height: 40vh;
+  width: 50vh;
+}
+
+form {
+  margin: 4rem 0 2rem 0;
+}
+
+form button,
+input,
+select {
+  width: 100%;
+  border: none;
+  outline: none;
+  border-radius: 0.75rem;
+}
+
+form input {
+  border: 3px outset #9290c3;
+  font-size: 1rem;
+  height: 3rem;
+  padding-left: 1rem;
+}
+
+.dropdown {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+.select-container img {
+  max-width: 2rem;
+  padding: 3px;
+  border-radius: 50%;
+}
+
+.select-container {
+  display: flex;
+  width: 6rem;
+  justify-content: center;
+  align-items: center;
+  border-radius: 0.75rem;
+  border: 3px outset #535c91;
+  background-color: #535c91;
+}
+
+.select-container:hover{
+  cursor: pointer;
+  border: 4px inset #535c91;
+}
+
+select {
+  color: aliceblue;
+  background-color: #535c91;
+}
+
+.dropdown i {
+  font-size: 1.5rem;
+  margin-top: 1.25rem;
+}
+
+.select-container select {
+  font-size: 1rem;
+  width: auto;
+}
+
+.msg {
+  justify-content: center;
+  display: flex;
+  color:brown;
+  margin: 3rem 0 1rem 0;
+  font-size: 2rem;
+}
+
+h2 {
+  text-align: center;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  font-size: 2rem;
+  background-color: #C7C8CC;
+  border: 2px outset #535c91;
+  border-radius: 1rem;
+}
+
+form button{
+    height: 3rem;
+    background-color: #070f2b;
+    color: aliceblue;
+    font-size: medium;
+    border: 4px outset white;
+}
+
+button:hover{
+    opacity: 0.90;
+    border: 4px inset white;
+    cursor: pointer;
+}
